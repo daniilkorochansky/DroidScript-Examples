@@ -1,2 +1,1 @@
-# DroidScript-Examples
-Examples and lessons.
+# DroidScript Examples
