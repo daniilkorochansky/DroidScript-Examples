@@ -15,7 +15,7 @@ class Main extends App
 
         this.editorElement = ui.addHTMLElement(this.main, "div", "", 1, 1)
         
-        var this.editor = ace.edit(this.editorElement.el)
+        var editor = ace.edit(this.editorElement.el)
         this.editor.setTheme("ace/theme/twilight")
        this.editor.session.setMode("ace/mode/python")
        this.editor.insert("print('Hello World')")
